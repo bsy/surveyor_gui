@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "sqlite3"
 
-  s.add_development_dependency 'sass-rails','~> 4.0.2'
+  s.add_development_dependency 'sass-rails','~> 5.0.6'
   s.add_development_dependency 'coffee-rails'
   s.add_development_dependency 'uglifier', '>= 1.0.3'
   s.add_development_dependency('rspec-rails', '~> 2.14.2')
@@ -47,6 +47,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'carrierwave'
   s.add_dependency 'colorbox-rails', '~> 0.1.1'
   s.add_dependency 'jquery-form-rails', '~> 1.0.1'
-  s.add_dependency 'deep_cloneable', '~> 2.0.0'  
-  s.add_dependency 'lazy_high_charts' 
+  s.add_dependency 'deep_cloneable', '~> 2.0.0'
+  s.add_dependency 'lazy_high_charts'
 end
